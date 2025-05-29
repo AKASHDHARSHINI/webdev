@@ -1,0 +1,38 @@
+
+  body {
+    background: #111;
+    color: white;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: white;
+    color: black;
+    align-items:center;
+  }
+  
+  .logo{
+    font-size: 60px;
+    font-weight: bold;
+
+  }
+  .menu ul {
+    list-style: none;
+ 
+  display: flex; /* FLEXED ORDER */
+  gap: 30px;
+  }
+  
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+  color: blue;
+}
